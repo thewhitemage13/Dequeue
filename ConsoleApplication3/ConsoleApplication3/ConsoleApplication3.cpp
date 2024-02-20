@@ -102,8 +102,6 @@ public:
 
 int main()
 {
-    setlocale(0, "");
-
     ExclusionProirityQueue q(25);
 
     q.Enqueue("teacher, Alexander", 100);
